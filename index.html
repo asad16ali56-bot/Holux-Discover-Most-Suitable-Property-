@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Holux | Discover Most Suitable Property</title>
+<link rel="icon" href="assets/favicon%20(5).png" type="image/png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= PRELOADER ================= -->
+<div class="preloader" id="preloader">
+  <div class="preload-mark"><i class="fa-solid fa-house"></i></div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="logo"><i class="fa-solid fa-house"></i> Holux</a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link active" data-link>Home</a>
+      <a href="#residences" class="nav-link" data-link>Residences</a>
+      <a href="#value" class="nav-link" data-link>Value</a>
+      <a href="#contact" class="nav-link" data-link>Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fa-regular fa-moon"></i>
+      </button>
+      <a href="#cta" class="btn btn-primary btn-sm">Subscribe</a>
+      <button class="icon-btn burger" id="burgerBtn" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <h1 class="reveal-up">Discover Most Suitable <span>Property</span></h1>
+      <p class="reveal-up delay-1">Find a variety of properties that suit you very easily, forget all difficulties in finding a residence for you</p>
+
+      <form class="search-bar reveal-up delay-2" id="searchForm">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Search by location...">
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+
+      <div class="hero-stats reveal-up delay-3">
+        <div class="stat">
+          <h3><span class="counter" data-target="9">0</span>K<span class="plus">+</span></h3>
+          <p>Premium Product</p>
+        </div>
+        <div class="stat">
+          <h3><span class="counter" data-target="2">0</span>K<span class="plus">+</span></h3>
+          <p>Happy Customer</p>
+        </div>
+        <div class="stat">
+          <h3><span class="counter" data-target="28">0</span>K<span class="plus">+</span></h3>
+          <p>Awards Winning</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-media reveal-in">
+      <div class="arch-frame">
+        <img src="assets/home.jpg" alt="Modern suitable property">
+      </div>
+      <div class="floating-card">
+        <i class="fa-solid fa-house-chimney-window"></i>
+        <div>
+          <strong>Aliva Private Garden</strong>
+          <span>Verified Residence</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BRANDS ================= -->
+<section class="brands">
+  <div class="container brands-inner">
+    <img src="assets/logo1.png" alt="Prologis" class="brand-logo">
+    <img src="assets/logo2.png" alt="American Tower" class="brand-logo">
+    <img src="assets/logo3.png" alt="Equinix" class="brand-logo">
+    <img src="assets/logo4.png" alt="Digital Realty" class="brand-logo">
+  </div>
+</section>
+
+<!-- ================= POPULAR RESIDENCES ================= -->
+<section class="residences" id="residences">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Best Choise</span>
+        <h2>Popular Residences<span class="dot">.</span></h2>
+      </div>
+      <div class="slider-arrows">
+        <button class="arrow-btn" id="prevBtn" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="arrow-btn" id="nextBtn" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <div class="residence-track-wrap">
+      <div class="residence-track" id="residenceTrack">
+
+        <div class="residence-card">
+          <div class="card-img">
+            <img src="assets/popular1.jpg" alt="Aliva Private Garden">
+            <button class="fav-btn" aria-label="Save"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="card-body">
+            <span class="price"><i class="fa-solid fa-tag"></i> $47,043</span>
+            <h3>Aliva Private Garden</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Street The Garden City Of Miraflores, Lima - Peru Av. #9876</p>
+          </div>
+        </div>
+
+        <div class="residence-card">
+          <div class="card-img">
+            <img src="assets/popular2.jpg" alt="Garden City Assat">
+            <button class="fav-btn" aria-label="Save"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="card-body">
+            <span class="price"><i class="fa-solid fa-tag"></i> $66,356</span>
+            <h3>Garden City Assat</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Street The Garden City Of Miraflores, Lima - Peru Av. #9876</p>
+          </div>
+        </div>
+
+        <div class="residence-card">
+          <div class="card-img">
+            <img src="assets/popular3.jpg" alt="Gables Luxurious House">
+            <button class="fav-btn" aria-label="Save"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="card-body">
+            <span class="price"><i class="fa-solid fa-tag"></i> $35,159</span>
+            <h3>Gables Luxurious House</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Street The Garden City Of Miraflores, Lima - Peru Av. #9876</p>
+          </div>
+        </div>
+
+        <div class="residence-card">
+          <div class="card-img">
+            <img src="assets/popular4.jpg" alt="Noir Modern Residence">
+            <button class="fav-btn" aria-label="Save"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="card-body">
+            <span class="price"><i class="fa-solid fa-tag"></i> $52,480</span>
+            <h3>Noir Modern Residence</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Street The Garden City Of Miraflores, Lima - Peru Av. #9876</p>
+          </div>
+        </div>
+
+        <div class="residence-card">
+          <div class="card-img">
+            <img src="assets/popular5.jpg" alt="Cedar Family House">
+            <button class="fav-btn" aria-label="Save"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="card-body">
+            <span class="price"><i class="fa-solid fa-tag"></i> $41,720</span>
+            <h3>Cedar Family House</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Street The Garden City Of Miraflores, Lima - Peru Av. #9876</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="dots" id="dots"></div>
+  </div>
+</section>
+
+<!-- ================= VALUE ================= -->
+<section class="value" id="value">
+  <div class="container value-inner">
+    <div class="value-media reveal-in">
+      <div class="arch-frame small">
+        <img src="assets/value.jpg" alt="Value we give to you">
+      </div>
+    </div>
+
+    <div class="value-text">
+      <span class="eyebrow">Our Value</span>
+      <h2>Value We Give To You<span class="dot">.</span></h2>
+      <p>We always ready to help you find your dream residence and negotiate the best price for you. We believe a good residence can make your life better.</p>
+
+      <ul class="value-list">
+        <li class="reveal-up">
+          <span class="value-icon"><i class="fa-solid fa-percent"></i></span>
+          <div>
+            <h4>Best interest rate</h4>
+          </div>
+        </li>
+        <li class="reveal-up delay-1">
+          <span class="value-icon"><i class="fa-solid fa-shield-halved"></i></span>
+          <div>
+            <h4>Prevent unstable prices</h4>
+            <p>Price we provides is a fixed price, so there's no price changes at all, so there's no unexpected costs that will burden you.</p>
+          </div>
+        </li>
+        <li class="reveal-up delay-2">
+          <span class="value-icon"><i class="fa-solid fa-sack-dollar"></i></span>
+          <div>
+            <h4>Best prices on the market</h4>
+          </div>
+        </li>
+        <li class="reveal-up delay-3">
+          <span class="value-icon"><i class="fa-solid fa-lock"></i></span>
+          <div>
+            <h4>Security of your residence</h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="container contact-inner">
+    <div class="contact-text">
+      <span class="eyebrow">Contact Us</span>
+      <h2>Easy to Contact us<span class="dot">.</span></h2>
+      <p>Is there a problem finding your dream home? Need a guide in buying first home? or need a consultation on residential issues? just contact us.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal-up">
+          <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+          <h4>Call</h4>
+          <p>022.32.165.19</p>
+          <a href="tel:0223216519" class="btn btn-outline btn-sm">Call Now</a>
+        </div>
+
+        <div class="contact-card highlight reveal-up delay-1">
+          <span class="contact-icon"><i class="fa-solid fa-comment-dots"></i></span>
+          <h4>Chat</h4>
+          <p>022.32.165.19</p>
+          <a href="#" class="btn btn-primary btn-sm">Chat Now</a>
+        </div>
+
+        <div class="contact-card reveal-up delay-2">
+          <span class="contact-icon"><i class="fa-solid fa-video"></i></span>
+          <h4>Video Call</h4>
+          <p>022.32.165.19</p>
+          <a href="#" class="btn btn-outline btn-sm">Video Call Now</a>
+        </div>
+
+        <div class="contact-card reveal-up delay-3">
+          <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+          <h4>Message</h4>
+          <p>022.32.165.19</p>
+          <a href="#" class="btn btn-outline btn-sm">Message Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-media reveal-in">
+      <div class="arch-frame small">
+        <img src="assets/contact.png" alt="Contact Holux">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta" id="cta">
+  <div class="container cta-inner">
+    <h2>Get Started with Holux</h2>
+    <p>Subscribe and find super attractive price quotes from us, find your residence soon</p>
+    <form class="cta-form" id="ctaForm">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit" class="btn btn-cta">Get Started</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#home" class="logo"><i class="fa-solid fa-house"></i> Holux</a>
+      <p>Find a variety of properties that suit you very easily, forget all difficulties in finding a residence for you.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#home">Home</a>
+      <a href="#residences">Residences</a>
+      <a href="#value">Value</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Support</h4>
+      <a href="#">Help Center</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Get in touch</h4>
+      <a href="tel:0223216519"><i class="fa-solid fa-phone"></i> 022.32.165.19</a>
+      <a href="mailto:hello@holux.com"><i class="fa-solid fa-envelope"></i> hello@holux.com</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Holux. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
